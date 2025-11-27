@@ -33,7 +33,7 @@ local function bodyvel(Part, Speed, Destination, Extra, waittime)
         NewBodyVel:Destroy()
     end
 end
-local Lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/IMRETARDED'))()
+local Lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/Pave58/V.G-Hub/main/IMRETARDED'))()
 local CategoryVariableHere= Lib:Category("Horizon")
 CategoryVariableHere:Toggle("Autofarm",function(State)
 cat = State

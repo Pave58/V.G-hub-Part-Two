@@ -137,7 +137,7 @@ game:GetService("UserInputService").InputEnded:connect(
 
 
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/test"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pave58/V.G-Hub/main/test"))()
 local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
 
 local Tab1 = Window:CreateTab("The Final Stand 2")
@@ -256,7 +256,7 @@ game:GetService("Workspace").Zombies.ChildAdded:Connect(function(v)
 end)
 end)
 
-local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/Karrot-Esp"))()
+local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pave58/V.G-Hub/main/Karrot-Esp"))()
 
 local Toggle1 = Section2:CreateToggle("Player Esp", nil, function(State)
     ESP:Toggle(State)

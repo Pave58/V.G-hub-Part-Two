@@ -77,7 +77,7 @@ for i, v in pairs(game:GetService("Workspace").Locations:GetChildren()) do
 end
 
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/dragonadventures/main/imretardedbadbusiness"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pave58/dragonadventures/main/imretardedbadbusiness"))()
 local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
 
 local Tab1 = Window:CreateTab("Your Bizarre Adventure")

@@ -31,7 +31,7 @@ for i, v in pairs(game:GetService("Workspace").Islands:GetDescendants()) do
     end
 end
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/im-retarded-3"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pave58/V.G-Hub/main/im-retarded-3"))()
 local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
 
 local Tab1 = Window:CreateTab("3008 [2.7]")
@@ -116,7 +116,7 @@ for i, v in pairs(game:GetService("Workspace").Islands:GetDescendants()) do
 end
 end)
 
-local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/Karrot-Esp"))()
+local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pave58/V.G-Hub/main/Karrot-Esp"))()
 
 local Toggle1 = Section1:CreateToggle("Player Esp", nil, function(State)
     ESP:Toggle(State)
